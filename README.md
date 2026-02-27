@@ -1,16 +1,90 @@
-# React + Vite
+# 📝 Todo App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Todo Application built using **React JS** and **Vite**.  
+This app allows users to add, delete, and manage daily tasks easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new todos
+- ❌ Delete todos
+- 📅 Add date to todos
+- 📋 Display list of tasks
+- ⚡ Fast development with Vite
+- 🎨 Simple and clean UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React JS
+- Vite
+- JavaScript (ES6+)
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+todo-app/
+│
+├── node_modules/
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   │
+│   ├── components/
+│   │   ├── Todo.css
+│   │   ├── Todo.jsx
+│   │   ├── TodoDate.jsx
+│   │   ├── TodoForm.jsx
+│   │   └── TodoList.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+📈 Future Improvements
+
+- ✏️ Edit todo functionality
+- ✅ Mark task as completed
+- 💾 Local Storage integration
+- 📱 Fully responsive design
+
+
+📸 Screenshot
+
+<img width="1920" height="912" alt="list" src="https://github.com/user-attachments/assets/d61b79a1-1ab7-4e1f-ae0d-a5f58ff59036" />
+
+<img width="1920" height="912" alt="screencapture-localhost-5173-2026-02-27-12_10_05" src="https://github.com/user-attachments/assets/2f05fb67-e2ea-4032-b7d3-da072ce0814b" />
+
+
+👨‍💻 Author
+
+Savan Rathod
+Frontend Developer
+
+
+📄 License
+
+This project is open-source and free to use.
+
+
+
+
+
